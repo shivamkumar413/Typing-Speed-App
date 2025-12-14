@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+body{
+    background-color: #212121;
+}
+h2{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size:xx-large;
+}
+#random-paragraph{
+    margin: 5px 50px;
+    /* line-height: 20px; */
+    font-size: xx-large;
+    width: 700px;
+}
+#paragraph-container{
+    display: flex;
+}
+.correct { color: green; }
+.space-correct{background-color: green;}
+.incorrect { color: red; }
+.space-incorrect{background-color: red;}
